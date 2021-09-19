@@ -1,0 +1,15 @@
+/* navbar */
+
+nav ul li a:hover{
+    color: hsl(0, 94%, 66%)!important;
+}
+
+nav .nav-btn{
+    background:hsl(0, 94%, 66%);
+}
+
+nav .nav-btn:hover{
+    border-color: hsl(0, 94%, 66%) ;
+    color: hsl(0, 94%, 66%) !important;
+    background: white ;
+}
