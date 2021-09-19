@@ -13,3 +13,62 @@ nav .nav-btn:hover{
     color: hsl(0, 94%, 66%) !important;
     background: white ;
 }
+
+
+/* body part-1 */
+
+.body-part-1 .btn-1{
+    background: hsl(231, 69%, 60%);
+}
+
+.body-part-1 #capsule{
+    position: absolute;
+    top: 50%;
+    left: 55.55%;
+    overflow: hidden;
+    background-color: hsl(231, 69%, 60%);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    height: 350px;
+    width: 600px;
+    z-index: -1;
+}
+
+/* .body-part-1 .cap-div{
+    position: absolute;
+} */
+
+/* .body-part-1 .cap-img{
+    position: absolute;
+} */
+
+.body-part-1 .btn-1:hover{
+    border-color: hsl(231, 69%, 60%) ;
+    color: hsl(231, 69%, 60%) !important;
+    background: white ;
+}
+
+.body-part-1 .btn-2:hover{
+    border-color: black ;
+    color: black !important;
+    background: white ;
+}
+
+@media screen and (max-width: 360px){
+
+    .body-part-1 .btn-1, .btn-2{
+        font-size: 12px;
+    }
+
+    .body-part-1 .btn-2{
+        font-size: 12px;
+    }
+
+    .body-part-1 #capsule{
+        top: 35%;
+        left: 20%;
+        height: 200px;
+        width: 300px;
+    }
+
+}
