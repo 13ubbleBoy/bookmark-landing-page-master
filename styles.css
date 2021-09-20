@@ -24,7 +24,7 @@ nav .nav-btn:hover{
 .body-part-1 #capsule{
     position: absolute;
     top: 50%;
-    left: 55.55%;
+    right: 0;
     overflow: hidden;
     background-color: hsl(231, 69%, 60%);
     border-top-left-radius: 50%;
@@ -33,14 +33,6 @@ nav .nav-btn:hover{
     width: 600px;
     z-index: -1;
 }
-
-/* .body-part-1 .cap-div{
-    position: absolute;
-} */
-
-/* .body-part-1 .cap-img{
-    position: absolute;
-} */
 
 .body-part-1 .btn-1:hover{
     border-color: hsl(231, 69%, 60%) ;
@@ -54,7 +46,7 @@ nav .nav-btn:hover{
     background: white ;
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 390px){
 
     .body-part-1 .btn-1, .btn-2{
         font-size: 12px;
@@ -69,6 +61,69 @@ nav .nav-btn:hover{
         left: 20%;
         height: 200px;
         width: 300px;
+    }
+
+}
+
+/* features */
+
+/* tabs */
+.features .btn-tab{
+    background-color: hsl(231, 69%, 60%);
+}
+
+.features #capsule2{
+    position: absolute;
+    
+    overflow: hidden;
+    background-color: hsl(231, 69%, 60%);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    height: 350px;
+    width: 600px;
+    z-index: -1;
+}
+
+.features .con-tab{
+
+}
+
+.features #capsule3{
+    position: absolute;
+    margin-top: 100px;
+    left: 0%;
+    overflow: hidden;
+    background-color: hsl(231, 69%, 60%);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    height: 320px;
+    width: 500px;
+    z-index: -1;
+}
+
+.features .tab-text{
+    color: hsl(229, 31%, 21%) !important;
+}
+
+.features .tab-text:hover{
+    color: hsl(0, 94%, 66%) !important;
+}
+
+.features .active{
+    border-bottom: 4px solid hsl(0, 94%, 66%) !important;
+}
+
+.remove-active .active{
+    border-bottom: 0px !important;
+}
+
+
+@media screen and (max-width: 390px){
+
+    .features #capsule3{
+        height: 180px;
+        width: 300px;
+        margin-top: 70px; 
     }
 
 }
