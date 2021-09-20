@@ -117,6 +117,12 @@ nav .nav-btn:hover{
     border-bottom: 0px !important;
 }
 
+.features .remove-active button:hover{
+    border-color: hsl(231, 69%, 60%) ;
+    color: hsl(231, 69%, 60%) !important;
+    background: white ;
+}
+
 
 @media screen and (max-width: 390px){
 
@@ -145,4 +151,48 @@ nav .nav-btn:hover{
 .body-part-2 .bbddyy .box-3{
     position: relative;
     top: 80px;
+}
+
+.body-part-2 .bbddyy .box-1 button:hover{
+    border-color: hsl(231, 69%, 60%) ;
+    color: hsl(231, 69%, 60%) !important;
+    background: white;
+}
+
+.body-part-2 .bbddyy .box-2 button:hover{
+    border-color: hsl(231, 69%, 60%) ;
+    color: hsl(231, 69%, 60%) !important;
+    background: white;
+}
+
+.body-part-2 .bbddyy .box-3 button:hover{
+    border-color: hsl(231, 69%, 60%) ;
+    color: hsl(231, 69%, 60%) !important;
+    background: white;
+}
+
+
+/* body-part-3 */
+
+.body-part-3{
+    margin-top: 220px;
+}
+
+.body-part-3 .acc .btn-hov:hover{
+    color:  hsl(0, 94%, 66%) !important;
+}
+
+.body-part-3 .bp3-btn button{
+    background: hsl(231, 69%, 60%);
+}
+
+.body-part-3 .bp3-btn button:hover{
+    border-color: hsl(231, 69%, 60%) ;
+    color: hsl(231, 69%, 60%) !important;
+    background: white;
+}
+
+@media screen and (max-width: 390px){
+
+    
 }
