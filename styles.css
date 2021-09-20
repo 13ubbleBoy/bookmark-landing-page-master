@@ -127,3 +127,22 @@ nav .nav-btn:hover{
     }
 
 }
+
+/* body part-2 */
+.body-part-2 .con{
+    margin-top: 150px;
+}
+
+.body-part-2 .bbddyy .d-btn{
+    background:  hsl(231, 69%, 60%);
+}
+
+.body-part-2 .bbddyy .box-2{
+    position: relative;
+    top: 40px;
+}
+
+.body-part-2 .bbddyy .box-3{
+    position: relative;
+    top: 80px;
+}
